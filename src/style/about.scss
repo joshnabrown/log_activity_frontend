@@ -1,0 +1,97 @@
+.about-wrapper {
+    .hero-section {
+        background-image: url(../../static/assets/images/somruthai-keawjan-IU50vDwlhEc-unsplash.jpg);
+        padding: 80px 30px 0px 30px;
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            .features_header {
+                background-color: gray;
+                border: 3px solid white;
+                border-radius: 6px;
+                color: white;
+                display: flex;
+                justify-content: center;
+                padding: 20px;
+                margin-bottom: 30px;
+            }
+
+            .features {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+
+                .feature {
+                    border: 3px solid grey;
+                    border-radius: 6px;
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    margin: 20px;
+                    width: 250px;
+                    padding: 20px;
+                }
+            }
+        }
+    }
+
+    .examples {
+        background-color: darkgreen;
+        width: 100%;
+
+        .example_header {
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+    }
+
+    .catagories {
+        background-color: darkgreen;
+        display: flex;
+        justify-content: space-around;
+
+        .catagory {
+            background-color: white;
+            border-radius: 6px;
+            ;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .items_container {
+        display: flex;
+        justify-content: space-around;
+        background-color: green;
+        height: 100%;
+
+        .items {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 3px;
+            border: 3px solid green;
+
+            .item {
+                color: black;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                padding: 10px;
+            }
+        }
+    }
+
+}

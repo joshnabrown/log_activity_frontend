@@ -1,0 +1,66 @@
+.container-wrapper {
+    background-color: $universe;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+
+    .logo-wrapper {
+        width: 420;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .logo {
+            font-size: larger;
+            padding: 20px;
+            color: $logo;
+        }
+
+        .tag-line {
+            color: $unitext;
+        }
+    }
+
+    .auth-form-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: $unitext;
+        height: 200px;
+        border-radius: 10px;
+        width: 250px;
+
+        .form-group {
+            padding: 5px;
+            color: $universe;
+            font // border: 1px solid red;
+
+
+            input {
+
+                padding: 3px;
+            }
+        }
+
+        .fa-envelope {
+            padding-right: 10px;
+        }
+
+        .fa-lock {
+            padding-right: 10px;
+        }
+
+        .btn {
+            margin: 20px;
+            padding: 5px;
+            width: 100px;
+            color: $universe;
+            background-color: $save;
+            font-size: large;
+        }
+    }
+}

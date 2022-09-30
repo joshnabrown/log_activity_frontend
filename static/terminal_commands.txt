@@ -1,0 +1,10 @@
+js-generate
+npm install
+    - Remove node-sass
+npm install sass
+npm audit fix
+
+npm i @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+
+
+npm start
