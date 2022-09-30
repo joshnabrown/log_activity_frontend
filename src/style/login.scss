@@ -1,5 +1,9 @@
 .container-wrapper {
     background-color: $universe;
+    background-image: url("../../static/assets/images/life-experience.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     // justify-content: space-around;
     flex-direction: column;

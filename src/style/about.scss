@@ -2,9 +2,9 @@
     .hero-section {
         background-image: url(../../static/assets/images/somruthai-keawjan-IU50vDwlhEc-unsplash.jpg);
         padding: 80px 30px 0px 30px;
-        height: 100%;
-        width: 100%;
-        background-attachment: fixed;
+        height: 600px;
+        // width: 100%;
+        // background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -16,6 +16,7 @@
             align-items: center;
 
             .features_header {
+                font-size: 2vw;
                 background-color: gray;
                 border: 3px solid white;
                 border-radius: 6px;
@@ -32,64 +33,73 @@
                 flex-wrap: wrap;
 
                 .feature {
+                    font-size: 1.5vw;
                     border: 3px solid grey;
                     border-radius: 6px;
                     background-color: white;
                     display: flex;
                     justify-content: center;
-                    margin: 20px;
-                    width: 250px;
-                    padding: 20px;
+                    margin: 15px 25px;
+                    width: 30%;
+                    padding: 10px;
+                    text-align: center;
                 }
             }
         }
     }
 
-    .examples {
-        background-color: darkgreen;
-        width: 100%;
+    .footer {
+        // position: fixed;
+        // bottom: 0;
 
-        .example_header {
-            color: white;
-            display: flex;
-            justify-content: center;
-            padding: 20px;
+        .examples {
+            background-color: darkgreen;
+            width: 100%;
+
+            .example_header {
+                font-size: 2vw;
+                color: white;
+                display: flex;
+                justify-content: center;
+                padding: 20px;
+            }
         }
-    }
 
-    .catagories {
-        background-color: darkgreen;
-        display: flex;
-        justify-content: space-around;
-
-        .catagory {
-            background-color: white;
-            border-radius: 6px;
-            ;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-    }
-
-    .items_container {
-        display: flex;
-        justify-content: space-around;
-        background-color: green;
-        height: 100%;
-
-        .items {
+        .catagories {
+            background-color: darkgreen;
             display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            padding: 3px;
-            border: 3px solid green;
+            justify-content: space-around;
 
-            .item {
-                color: black;
+            .catagory {
+                font-size: 1.5vw;
+                background-color: white;
+                border-radius: 6px;
+                ;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .items_container {
+            display: flex;
+            justify-content: space-around;
+            background-color: green;
+
+            .items {
                 display: flex;
                 justify-content: center;
                 flex-wrap: wrap;
-                padding: 10px;
+                padding: 3px;
+                border: 3px solid green;
+
+                .item {
+                    font-size: 1.5vw;
+                    color: black;
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    padding: 10px;
+                }
             }
         }
     }
