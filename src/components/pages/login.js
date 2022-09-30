@@ -59,7 +59,7 @@ export default class Login extends Component {
             <div className="container-wrapper">
                 <div className="logo-wrapper">
                     <div className="logo">
-                        <h1>Log Experiences</h1>
+                        <h1>Log Activities</h1>
                     </div>
                     <div className="tag-line">
                         <h2>Log What You Love</h2>
