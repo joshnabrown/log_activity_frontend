@@ -24,7 +24,7 @@ export default class Activities extends Component {
 
     render() {
         const activityRecords = this.props.activities.map(activities => {
-            return <h3 key={activities.title}>User {activities.user_id} added - {activities.title} </h3>;
+            return <h5 key={activities.title}>User {activities.user_id} added - {activities.title} </h5>;
             // return <h3 key={activities.title}>User {activities.user_id} added {localStorage.id == activities.user_id ? <a onClick={() => this.deleteActivity(activities.id)}><FontAwesomeIcon icon="trash" /></a> : "-"} {activities.title} </h3>;
         });
         return (
