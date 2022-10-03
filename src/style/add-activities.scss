@@ -1,16 +1,23 @@
 .home-wrapper {
+    background-color: darkblue;
+    background-image: url(../../static/assets/images/david-billings-__I-gX-cnd8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 113px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
+
     .add-activity-container {
-        border: 1px solid darkgreen;
+        border: 2px solid darkgreen;
         border-radius: 10px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         width: 80vw;
+        max-width: 500px;
         background-color: green;
         margin-top: 30px;
 
@@ -49,6 +56,7 @@
         justify-content: center;
         flex-direction: column;
         width: 80vw;
+        max-width: 500px;
         background-color: green;
         margin-top: 30px;
 
